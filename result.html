@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ビジェ旅</title>
+    <!-- CSSのリンク -->
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body id="result">
+    <header>
+        <div id="result-container">
+            <img src="assets/images/ico_search.svg" alt="検索アイコン" width="25px">
+            <!-- 結果がここに表示されます -->
+        </div>
+    </header>
+    <main>
+        <h3>あなたの行ける場所はこちら！</h3>
+        <div class="recommend_wrapper">
+            <div class="recommend_box">
+                <p class="recommend_title">地名から探す</p>
+            </div>
+            <div class="recommend_box">
+                <p class="recommend_title">地図から探す</p>
+                <div class="map_wrapper">
+                    <img id="mapsvg" src="assets/images/map-full.svg" alt="日本地図" width="100%">
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    
+    <script src="assets/result.js"></script>
+</body>
+</html>
